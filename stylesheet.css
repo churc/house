@@ -7,12 +7,14 @@ body {
     padding: 2em 2em 4em;
     max-width: 850px;
     font-family: "Courier";
-   font-weight: lighter;
+    font-weight: lighter;
     line-height: 1.1em;
     color: #073D0C;
    }
 
 img {
+    position: absolute;
+    left: 20%;
     margin: 8px 0 20px 0;
     line-height: 18px;
     max-width: 60%;
@@ -23,7 +25,7 @@ img {
 
 p {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 20px;   
     }
       
 h1 {
@@ -48,28 +50,49 @@ a {
    font-size: 16px;
    }
 
-span12 {
-    width: 73%;
+.span12 {
+    width: 95%;
+    text-align: center;
     }
 
-col {
-    display: inline;
+.col {
+    display: block;
     float: left;
     margin: 0 1%;
     position: relative;
+    padding-top: 10px;
     }
 
-map 
+#map 
   { 
     display: block; 
-    border-bottom: 5px; 
+    border-bottom: 12px; 
     border-top: 12px; 
-    height: 440px; 
+    height: 380px;
     margin: 12px; 
   }
+  
+ #map2 
+  { 
+    display: block; 
+    border-bottom: 12px; 
+    border-top: 12px; 
+    height: 250px;
+    margin: 12px; 
+  } 
    
+#logo 
+  { 
+    border-bottom: 6px; 
+    border-top: 6px; 
+    height: 85px;
+    margin: 6px; 
+    position: right;
+  }
+
 ul
   {
     font-size: 16px;
     font-family: "Courier";
-   }
+    text-align:left;
+}
